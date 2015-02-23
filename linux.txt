@@ -1,0 +1,7 @@
+ls        #list stuff in a directory
+cd        #change directory or go back to root
+ln        #links files
+mkdir     #create a directory
+nc        #reads TCP and UDP data going across the network
+netstat   #shows connections
+nslookup  #lookup name server information
