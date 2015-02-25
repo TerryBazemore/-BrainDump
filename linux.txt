@@ -13,6 +13,16 @@ Linux File Commands
   sudo      #perform actions as another user
   rm        #remove command for directories and files
   touch     #manipulates timestamp
+
+Getting info on the System
+  who       #shows whos logged in
+  w         #shows what a logged in user is doing
+  getent    #gives a boatload of info about users
+  ps        #list processes
+  
+  
+  
+  
 Linux Network Commands
   nc        #reads TCP and UDP data going across the network
   netstat   #shows connections
