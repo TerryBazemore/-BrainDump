@@ -1,7 +1,20 @@
-ls        #list stuff in a directory
-cd        #change directory or go back to root
-ln        #links files
-mkdir     #create a directory
-nc        #reads TCP and UDP data going across the network
-netstat   #shows connections
-nslookup  #lookup name server information
+Linux File Commands
+  ls        #list stuff in a directory
+  ln        #links files
+  mkdir     #create a directory
+  cd        #change directory or go back to root
+  sort      #sorts through txt file lines
+  md5sum    #can determine the md5 of a file and check it
+  shred     #gets rid of file and the data within
+  file      #tells you a files type
+  diff      #compare two files
+  grep      #finds/matches/prints lines that have some sort of pattern
+  gzip      #compress and decompress files
+  sudo      #perform actions as another user
+  rm        #remove command for directories and files
+  touch     #manipulates timestamp
+Linux Network Commands
+  nc        #reads TCP and UDP data going across the network
+  netstat   #shows connections
+  nslookup  #lookup name server information
+  ifconfig  #provides IP information
