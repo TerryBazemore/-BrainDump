@@ -1,10 +1,21 @@
+Windows Network Commands
 ipconfig      #Show IP address
 ping          #Send packets to see if hosts is reachable
 netstat       #displays network connections
 tracert       #traces packet routes
 arp           #display the IP/MAC address tables
+Finger        #shows information about users
+
+
+Windows System Commands
 mkdir         #create a directory
 cd            #change to a directory
 attrib        #gives privilege to files and folders
 regedit       #opens the windows registry
-,nb
+
+Windows GUI Commands
+lusrmgr.msc   #brings up the Local User Manager Gui 
+control       #brings up the control panel 
+secpol.msc    #brings up the local security policy for firewalls, Accounts, etc
+eventvwr.msc  #brings up the event viewer where you can see windows logs
+
