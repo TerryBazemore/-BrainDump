@@ -1,0 +1,13 @@
+/root           #home dir of root account
+/usr            #large amounts of data about and created by the users stored
+/etc            #stores sys config files
+/bin            #stores binaries of users
+/opt            #stores thrid party software
+/proc           #running programs and processes
+/var            #store variable files
+/home           #directory of user files
+
+/var/log        #sys log files
+/etc/shadow     #local users' hashes
+/etc/passwd     #local users
+/etc/hosts      #hostnames and ips
