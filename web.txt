@@ -1,1 +1,9 @@
-https://www.owasp.org/index.php/Cheat_Sheets     #
+https://www.owasp.org/index.php/Cheat_Sheets  
+
+www.primalsecurity.net/0x2-exploit-tutorial-web-hacking-with-burp-suite/
+
+http://niiconsulting.com/checkmate/2014/01/from-sql-injection-to-0wnage-using-sqlmap/
+
+https://www.christophertruncer.com/eyewitness-usage-guide/
+
+https://github.com/ChrisTruncer/EyeWitness
