@@ -8,11 +8,14 @@ Linux File Commands
   shred     #gets rid of file and the data within
   file      #tells you a files type
   diff      #compare two files
+  chmod     #change privs on a file or dir
   grep      #finds/matches/prints lines that have some sort of pattern
   gzip      #compress and decompress files
   sudo      #perform actions as another user
   rm        #remove command for directories and files
   touch     #manipulates timestamp
+  cp        #copy 
+  traceroute # just like in windows; traces packet route to net host
 
 Getting info on the System
   who       #shows whos logged in
