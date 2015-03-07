@@ -7,3 +7,5 @@ http://niiconsulting.com/checkmate/2014/01/from-sql-injection-to-0wnage-using-sq
 https://www.christophertruncer.com/eyewitness-usage-guide/
 
 https://github.com/ChrisTruncer/EyeWitness
+
+https://www.youtube.com/watch?v=K9_VL0rbAkU
