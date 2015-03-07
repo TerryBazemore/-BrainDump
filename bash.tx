@@ -1,3 +1,6 @@
-#Two ways to Parse IPs out of a file
+#Using grep to Parse IPs out of a file
    grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' file |sort -u |cut -d ':' -f1     #will parse IPs using grep
-   cat tmp | awk '{print $17}' | cut -d':' -f1 | sort -u 
+   
+#USing Awk
+   cat tmp | awk '{print $17}' | cut -d':' -f1 | sort -u      #will parse IPs using awk, strip ports, and show only unique IPs
+   cat tmp | awk '{print $17}' | grep ':53'                   #will parse IPs and show only port 53 IPs
