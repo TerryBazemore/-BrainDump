@@ -1,0 +1,3 @@
+#Two ways to Parse IPs out of a file
+   grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' file |sort -u |cut -d ':' -f1     #will parse IPs using grep
+   cat tmp | awk '{print $17}' | cut -d':' -f1 | sort -u 
