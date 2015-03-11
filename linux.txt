@@ -49,3 +49,24 @@ Linux Network Commands
     history  #view commands that have been used
     init 6   #reboot; 0 for shutdown
     kill     #kills processes
+
+Linux Services (Start and Stop)
+  shutdown -r now    #Restart
+  shutdown -r +      #Delay before Shutdown
+  shutdown -h now    #Halt sys/shutdown w/o reboot
+  
+   Service      Function
+   apache       #Web server
+   atd          #Runs commands at predefined times.
+   cron         #Runs commands at predefine times; offers more flexibility than atd.
+   exim         #Mail transfer agent.
+   gpm          #Provides cut and paste to virtual consoles.
+   lpd          #Controls the printer.
+   netbase      #Basic networking services ( inetd and portmap).
+   netstd_init  #Network routing ( routed).
+   netstd_misc  #Miscellaneous networking services.
+   nfs-server   #Network file system ( nfsd).
+   samba        #Microsoft-compatible networking ( smbd and nmbd).
+   
+   /etc/init.d/ #service start
+   /etc/init.d/ #service stop
